@@ -1,0 +1,14 @@
+@keyframes colorful-blink {
+    0% { opacity: 0; color: #8e0533; } /* Pink */
+    20% { opacity: 1; color: #545054; } /* Purple */
+    40% { color: #020e18; } /* Blue */
+    60% { color: #6a8d6b; } /* Green */
+    80% { color: #ff990078; } /* Orange */
+    100% { color: #c9bab5; } /* Red-Orange */
+  }
+  
+  .colorful-blinking-text {
+    animation: colorful-blink 4s infinite; /* Adjust the duration as needed */
+    transition: color 0.2s ease-in-out;
+  }
+  
